@@ -1,7 +1,9 @@
 // Description: This is the main file for the syntax package.
 package main
 
-import rucursion "syntax/recursion"
+import (
+	structure "syntax/struct"
+)
 
 func main() {
 	// fmt.Println(helloWorld.HelloWorld());
@@ -11,5 +13,5 @@ func main() {
 	// slices.Slices()
 	// condition.Condition()
 	// loops.Loops()
-	rucursion.Recursion()
+	structure.Struct()
 }
