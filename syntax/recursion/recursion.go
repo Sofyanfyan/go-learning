@@ -5,13 +5,12 @@ import (
 )
 
 // Factorial using recursion
-func factorial_recursion(x float64) (y float64) {
-	
+func factorial_recursion(x int) (y int) {
   if x > 0 {
-     y = x * factorial_recursion(x-1)
-  } else {
-     y = 1
-  }
+    y = x * factorial_recursion(x-1)
+    } else {
+      y = 1
+    }
   return
 }
 
